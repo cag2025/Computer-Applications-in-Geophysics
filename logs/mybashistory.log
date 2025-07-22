@@ -1,0 +1,9 @@
+source ~/.bashrc
+clear
+source ~/.bashrc
+clear
+clear
+./test.sh 
+git init
+git remote add origin git@github.com:cag2025/Computer-Applications-in-Geophysics.git
+git checkout -b 22EX10033
