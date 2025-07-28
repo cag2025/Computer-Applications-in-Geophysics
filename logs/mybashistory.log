@@ -146,3 +146,4 @@ ls -a
 git commit
 git add
 git add .
+git commit -a
