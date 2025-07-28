@@ -7,3 +7,142 @@ clear
 git init
 git remote add origin git@github.com:cag2025/Computer-Applications-in-Geophysics.git
 git checkout -b 22EX10033
+git commit -m "Initial commit for 22EX10033 branch"
+git push origin 22EX10033
+git branch -r
+nvim 
+clear
+shutdown now
+shutdown now
+clear
+systemd-blame
+systemd-analyse
+systemd-analyze
+clear
+nvim 22EX10033/
+systemd-analyze
+systemd-analyze blame
+systemd-analyze blame > boot-blame.txt
+gedit boot-blame.txt 
+clear
+gmt pscoast -R68/100/18/32 -Jm0.8 -B2g2 -Na -Ia/0.3,green -Ggreen -Sred -K > x.ps
+gmt pscoast -R68/100/18/32 -Jm0.8 -B2g2 -Na -Ia/0.3,green -Ggreen -Sred -K > x.ps
+cd 22EX10033/
+gmt pscoast -R68/100/18/32 -Jm0.8 -B2g2 -Na -Ia/0.3,green -Ggreen -Sred -O > x.ps
+gmt pscoast -R68/100/18/32 -Jm0.8 -B2g2 -Sc0.2 -O > x.ps
+gmt psxy -R68/100/18/32 -Jm0.8 -B2g2 -Sc0.2 -Gred -O > x.ps
+gmt psxy -R68/100/18/32 -Jm0.8 -B2g2 -Sc0.2 -Gred -O > x.ps
+okular x.ps
+okular x1.ps
+gmt psxy -R68/100/18/32 -Jm0.8 -B2g2 -Sc0.2 -Gred -O > x1.ps
+gmt psxy -R68/100/18/32 -Jm0.8 -B2g2 -Sc0.2 -Gred  > x1.ps
+gmt psxy -R68/100/18/32 -Jm0.8 -B2g2 -Sc0.2 -Gred  >> x1.ps
+gmt pscoast -R68/100/18/32 -Jm0.8 -B2g2 -Na -Ia/0.3,green -Ggreen -Sred -O > x.ps
+okular x.ps
+gmt pscoast -R68/100/18/32 -Jm0.8 -B2g2 > x.ps
+gmt pscoast -R68/100/18/32 -Jm0.8 -B2g2 -Ggreen -Sblue> x.ps
+gmt pscoast -R68/100/18/32 -Jm0.8 -B2g2 -Ggreen -Sblue> x.ps
+gmt pscoast -R68/100/18/32 -Jm0.8 -B2g2 -Ggreen -Sblue > x1.ps
+okular x1.ps
+rm x.ps
+ls
+rm x1.ps
+gmt pscoast -R68/100/18/32 -Jm0.8 -B2g2 -Ggreen -Sblue> x.ps
+okular x.ps
+ls
+rm -rf x.ps
+clear
+cd 22EX10033/
+ls
+clear
+ls
+clear
+rm -rf x.ps 
+ls
+cler
+clear
+gmt pscoast -R68/100/18/32 -Jm0.8 -B2g2 -Ggreen -Sblue> x.ps
+gmt pscoast -R68/100/18/32 -Jm0.8 -B2g2 -Na -Ia/0.3,geen -Ggrey -Sskyblue -K > x.ps
+gmt pscoast -R68/100/18/32 -Jm0.8 -B2g2 -Na -Ia/0.3,green -Ggrey -Sskyblue -K > x.ps
+gmt pscoast -R68/100/18/32 -Jm0.8 -B2g2 -Na -Ia/0.3,blue -Ggrey -Sskyblue -K > x.ps
+ls
+cat test.dat 
+nvim test.dat
+cat test.data | awk '{print $3,$2}' |gmt psxy -R -Jm0.8 -B2g2 -O -Sc0.2 -Gred >> x.ps
+cat test.dat | awk '{print $3,$2}' |gmt psxy -R -Jm0.8 -B2g2 -O -Sc0.2 -Gred >> x.ps
+gedit test.dat
+cat test.dat | awk '{print $1,$2}' |gmt psxy -R -Jm0.8 -B2g2 -O -K -Sc0.2 -Gred >> x.ps
+nvim test.dat
+nvim cities.dat
+cat test.dat | awk '{print $1,$2}' |gmt psxy -R -Jm0.8 -B2g2 -O -K -Sc0.2 -Gred >> x.ps
+cat test.dat | awk '{print $3,$2}' |gmt psxy -R -Jm0.8 -B2g2 -O -K -Sc0.2 -Gred >> x.ps
+cat test.dat | awk '{print $2,$3}' |gmt psxy -R -Jm0.8 -B2g2 -O -K -Sc0.2 -Gred >> x.ps
+nvim cities.dat 
+cat cities.dat | awk '{print $1,$2,$3}'
+cat cities.dat | awk '{print $1}'
+cat cities.dat | awk '{print $2}'
+nvim cities.dat 
+cat cities.dat | awk '{print $2}'
+cat cities.dat | awk '{print $3}'
+cat cities.dat | awk '{print $2,$3}' |gmt psxy -R -Jm0.8 -B2g2 -O -K -Sc0.2 -Gred >> x.ps
+cat cities.dat | awk '{print $3,$2}' |gmt psxy -R -Jm0.8 -B2g2 -O -K -Sc0.2 -Gred >> x.ps
+gmt psxy -R77.23/28.61 -Jm0.8 -B2g2 -O -K -Sc0.2 -Gred >> x.ps
+nvim test.sh
+nvim test.sh
+clear
+./test.sh 
+./test.sh 
+./test.sh 
+gedit cities.dat 
+./test.sh 
+./test.sh 
+./test.sh 
+okular x.ps
+okular x.ps
+./test.sh 
+./test.sh
+clear
+gmt pscoast -R68/100/18/32 -Jm0.8 -B3g3 -Na -Ia/0.3,darkblue -Glightgreen -Sskyblue -K > x.ps
+gmt pscoast -R68/100/18/32 -Jm0.8 -B3g3 -Na -Ia/0.3,darkblue -Glightgreen -Sskyblue -K > x.ps
+gmt pscoast -R68/100/18/32 -Jm0.8 -B3g3 -Na -Ia/0.3,darkblue -Glightgreen -Sskyblue -K > x.ps
+gmt pscoast -R68/100/18/32 -Jm0.8 -B3g3 -Na -Ia/0.3,darkblue -Glightgreen -Sskyblue -K > x.ps
+./test.sh 
+./test.sh 
+./test.sh
+clear
+okular x.ps
+cd 22EX10033/
+clear
+./test.sh 
+./test.sh 
+./test.sh 
+./test.sh 
+clear
+./test.sh
+./test.sh
+./test.sh
+./test.sh
+./test.sh
+./test.sh
+./test.sh
+./test.sh
+./test.sh
+./test.sh
+./test.sh
+./test.sh
+./test.sh
+./test.sh
+./test.sh
+./test.sh
+./test.sh
+./test.sh
+git stage -a
+ls
+clea
+clear
+git
+clear
+ls -a
+git commit
+git add
+git add .

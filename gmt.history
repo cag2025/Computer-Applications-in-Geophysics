@@ -1,9 +1,10 @@
 # GMT 6 Session common arguments shelf
 BEGIN GMT 6.3.0
-B	x30+llongitutey20+llatituteWsen
+B	2g2
 J	m
 JM	M6i
-Jm	m0.05
-R	0/360/-70/70
-@L	1
+Jm	m0.8
+R	68/100/18/32
+@G	2 2
+@L	4
 END
